@@ -29,6 +29,7 @@ namespace linkedInTutorial
             {
                 await context.Response.WriteAsync("Hello World!");
             });
+            app.UseFileServer();
         }
     }
 }
